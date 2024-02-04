@@ -1,0 +1,46 @@
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcfbfb;
+  }
+
+header {
+    background-color:rgba(20,30,13  .7);
+}
+
+nav a:hover {
+    background-color: black
+}
+
+  /* Add these rules to your existing styles/style.css file */
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+footer p { 
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline; 
+}
