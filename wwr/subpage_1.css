@@ -1,0 +1,137 @@
+
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+
+/* Header */
+
+
+
+
+
+.social img {
+    width: 20px; 
+    height: auto; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #007bff; /* Change link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fcfbfb;
+  }
+
+header {
+    background-color: rgba(0,0,0,75%);
+    display: grid; 
+    grid-template-columns: 150px auto;
+
+}
+
+nav a:hover {
+    background-color: black
+}
+
+  /* Add these rules to your existing styles/style.css file */
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+footer p { 
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline; 
+}
+
+nav {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+
+/* Style the tab */
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current "tab button" class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    display: none;
+  }
+  
+  /* Clear floats after the tab */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
