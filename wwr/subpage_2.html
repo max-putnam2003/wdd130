@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="subpage_1.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Live Updates | Total Cost | Home</title>
+        <!-- Add your CSS links or styles here -->
+    </head>
+    <body>
+        <div id="content" style="max-width: 1600px; margin: 0 auto;">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/automatic-auto.png" alt="Automatic Auto Logo" style="width: 200; height: 100%;">
+            </a>
+            <nav>
+                <a href="personal_site.html">Home</a>
+                <a href="subpage_1.html">Live Updates</a>
+                <a href="subpage_2.html">Total Cost</a>
+                
+            </nav>
+        </header>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.cool-image {
+width: 100%;
+max-width: 400px;
+margin: 20px auto;
+display: block;
+border: 2px solid #333; /* Black border */
+border-radius: 10px; /* Rounded corners */
+}
+</style>
+</head>
+<body>
+
+<h2>Total Cost</h2>
+<p>Micheal Jordan - 2014 Ford Escape</p>
+
+<img src="images/happy_man.png" alt="Cool Picture" class="cool-image">
+
+<button class="accordion">Grinding brakes</button>
+<div class="panel">
+  <p>$300.00</p>
+</div>
+
+<button class="accordion">Bad alternator</button>
+<div class="panel">
+  <p>$400.00</p>
+</div>
+
+<button class="accordion">Blown transmission</button>
+<div class="panel">
+  <p>$1400.00</p>
+
+<button class="accordion">Final Cost</button>
+<div id="finalCostPanel" class="panel">
+    <p> Grinding brakes: 300 
+        Bad alternator: 400 
+        Blown transmission: 1400 
+        Tax 6%: 126
+        Total: $2226.00
+    </p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

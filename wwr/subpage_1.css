@@ -135,3 +135,16 @@ nav {
     clear: both;
     display: table;
   }
+
+  body {
+    background-color: #00000087; /* Light gray background */
+}
+
+.cool-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  border: 2px solid #333; /* Black border */
+  border-radius: 10px; /* Rounded corners */
+}
